@@ -1,0 +1,39 @@
+div{ /*es la conecion con el loguin*/
+    /*coloca un color de fondo*/
+    margin: 0 auto;
+    background-color: #5dd3f7;
+background-position: center;
+width: 40%;
+height: 60%;
+display: inline-block;
+
+}
+#loguin{
+    background-color: #5dd3f7;
+    background-position: center;
+}
+input{
+border: 15px;
+
+}
+button{
+    background-color: #0452aa;
+    cursor: pointer;
+    font-size: 17px;
+}
+h1{
+    background-position: center;
+}
+form{
+    margin: 0 auto;
+}
+#azul{
+    background-color: #0452aa;
+}
+td{
+    
+    padding: 16px;
+}
+#blanco{
+    background-color: #f5f8fa;
+}

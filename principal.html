@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilopractico.css">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <center><h1>Registro Pacientes con Covid</h1></center>
+        <form action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="Nombre">Nombre:</label><br>
+                <input type="text"name=" "id="Nombre" ><br>
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text"name=" "id="Apellidos"><br>
+                <label for="sexo">sexo:</label>
+                <input type="radio"name="sexo" id="sexo1">Hombre
+                <input type="radio"name="sexo" id="sexo2">Mujer <br>
+                <label for="Fecha Nacimiento">Fecha Nacimineto</label><br>
+                <input type="date" name="Fecha" id="Fecha"><br>
+                <label for="Direccion">Direccion:</label><br>
+                <textarea name="dir" id="dir" cols="30" rows="10"></textarea><br>
+    
+    
+            </fieldset>
+        </form>
+        </div>
+        <br>
+        <div>
+        <form action="">
+            <fieldset>
+                <legend>Datos Extras</legend>
+                
+                <label for="resp">contactos con alguien enfermo:</label><br>
+                <input type="radio"name="resp" id="si">Si
+                <input type="radio"name="resp" id="no">No 
+                <input type="radio"name="resp" id="Posiblemente">Posiblemente <br>
+                <label for="resp">Estubo enfermo antes:</label><br>
+                <input type="radio"name="resp" id="si">Si
+                <input type="radio"name="resp" id="no">No <br>
+                <label for="resp">Enfermedades de base:</label><br>
+                <input type="radio"name="resp" id="diabetes">diabetes
+                <input type="radio"name="resp" id="enfermedad renal">enfermedad renal
+                <input type="radio"name="resp" id="enfermedad epatica">enfermedad epatica
+                <input type="radio"name="resp" id="otros">otros<br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Generados</legend>
+                <label for="Temperatura">Temperatura:</label><br>
+                <input type="text"name=" "id="Temperatura"><br>
+                <label for="Tipo Examen">Tipo Examen:</label><br>
+                <input type="text"name=" "id="Tipo Examen"><br>
+            </fieldset>
+
+            <button type="submit" >Enviar</button></a>
+            <button type="submit" >Cancelar</button></a>
+            <button type="submit" >Registros</button></a>
+            /*<form action="registro.html" method="get"></form>*/
+            <a class="enlaceboton" href="registro.html">Registros</a>
+        </form>
+        </div>
+</body>
+</html>
